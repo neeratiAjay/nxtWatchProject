@@ -1,4 +1,4 @@
-/*
+
 import {formatDistanceToNow} from 'date-fns'
 
 import {
@@ -47,4 +47,4 @@ const TrendingVideoItem = props => {
   )
 }
 export default TrendingVideoItem
-*/
+

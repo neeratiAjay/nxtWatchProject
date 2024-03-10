@@ -1,4 +1,3 @@
-/*
 import {Component} from 'react'
 import Cookies from 'js-cookie'
 import {FaFire} from 'react-icons/fa'
@@ -111,4 +110,3 @@ class TrendingContent extends Component {
   }
 }
 export default TrendingContent
-*/

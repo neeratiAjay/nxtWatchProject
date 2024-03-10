@@ -1,4 +1,4 @@
-/*
+
 import {AiFillHome} from 'react-icons/ai'
 import {FaFire} from 'react-icons/fa'
 import {SiYoutubegaming} from 'react-icons/si'
@@ -176,13 +176,6 @@ const NavigationBar = () => (
   </DarkModeContext.Consumer>
 )
 export default NavigationBar
-*/
 
-const NavigationBar = ()=>{
-  return (
-    <h1>dsfasf</h1>
-  )
-}
-export default NavigationBar
 
 
