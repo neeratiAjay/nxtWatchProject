@@ -6,7 +6,7 @@ import DarkModeContext from './context/DarkModeContext'
 
 import Login from './components/Login'
 import Home from './components/Home'
-import TrendingContent from './components/Trending'
+//import TrendingContent from './components/Trending'
 
 import VideoItemDetails from './components/VideoItemDetails'
 import ProtectedRoute from './components/Protect'
@@ -59,7 +59,6 @@ class App extends Component {
             path="/videos/:id"
             component={VideoItemDetails}
           />
-          <ProtectedRoute exact path="/trending" component={TrendingContent} />
         </Switch>
       </DarkModeContext.Provider>
     )
@@ -68,3 +67,4 @@ class App extends Component {
 
 export default App
 //  <ProtectedRoute exact path="/gaming" component={GamingContent} />
+//<ProtectedRoute exact path="/trending" component={TrendingContent} />
